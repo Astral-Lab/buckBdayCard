@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:ital,wght@1,900&display=swap');
 
+html, body {
+    position: relative;
+    overflow: hidden;
+}
+
 body {
     background: black;
     color: white;
@@ -10,6 +15,7 @@ body {
     justify-content: center;;
     align-items: center;
     overflow-x: hidden;
+    text-transform: uppercase;
 }
 
 .backgroundContainer {
@@ -27,8 +33,8 @@ body {
 }
 
 .backgroundItem {
-    font-size: 2rem;
-    opacity: 0.2;
+    font-size: 1.5rem;
+    opacity: 0.15;
     font-style: italic;
 }
 
